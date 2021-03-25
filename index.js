@@ -13,10 +13,9 @@ const { FILE } = require('dns');
 
 bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);
-    //bot.user.setPresence({status: "online", activity: {name: bot.guilds.cache.size + " Servers | s!help ", type: "WATCHING", url: "https://www.twitch.tv/alejandromume"}})
 });
 
-bot.login("Nzg3MzgxNjkxMjI0MDMxMjUy.X9UIWA.TAD7Af0kiccf0XGwqb9FEqrzkmE")
+bot.login("TOKEN")
 
 bot.on('message', msg => {
     
@@ -199,8 +198,7 @@ bot.on('message', msg => {
                         .setDescription("```\n Cannot find server tags```")
                         msg.channel.send(mensaje);
                     }
-                    
-                
+
                 })
     }
     
