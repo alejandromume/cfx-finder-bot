@@ -2,14 +2,7 @@ const Discord = require('discord.js');
 const { Client, MessageEmbed, Collection, MessageAttachment  } = require('discord.js');
 const bot = new Discord.Client()
 const fetch = require("node-fetch")
-const isIp = require('is-ip');
 const https = require("https")
-const cheerio = require('cheerio');
-const rp = require("request-promise");
-const xpath = require("xpath");
-const { Domain } = require('domain');
-const { FILE } = require('dns');
-
 
 bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);
