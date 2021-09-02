@@ -17,9 +17,10 @@ bot.on('message', msg => {
         const args3 = msg.content.slice(">cfind".length).split(' ');
 
         var code = args3[1]
-        var urlfivem = "https://servers-live.fivem.net/api/servers/single/"+code
+        var urlfivem = "https://servers-frontend.fivem.net/api/servers/single/"+code
         https.get(urlfivem, function(res) {
-            if(res.statusCode == 404){
+            console.log(res.statusCode)
+            if(res.statusCode == 404 || res.statusCode == 403){
 
                 const mensaje = new Discord.MessageEmbed()
                 .setColor("#c73e10")
