@@ -11,7 +11,7 @@ A premium Discord CFX Finder bot for getting info about the FiveM server
 You can add the original bot to your Discord Server: 
 
 
-[https://discord.com/oauth2/authorize?client_id=787381691224031252&scope=bot&permissions=8](https://discord.com/oauth2/authorize?client_id=787381691224031252&scope=bot&permissions=8)
+[https://discord.com/oauth2/authorize?client_id=883026066900418612&scope=bot&permissions=8](https://discord.com/oauth2/authorize?client_id=787381691224031252&scope=bot&permissions=8)
 
 ## <ins>Installation
 
