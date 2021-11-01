@@ -5,7 +5,8 @@ A premium Discord CFX Finder bot for getting info about the FiveM server
 `Official Discord:` [https://discord.gg/HW9zCdRSVa](https://discord.gg/HW9zCdRSVa)
 
 ## <ins>Preview
-![preview](https://user-images.githubusercontent.com/43515908/112511856-b8c73b80-8d8a-11eb-9d17-e4f51ccef3fc.JPG)
+![image](https://user-images.githubusercontent.com/43515908/139682801-9892ac82-3bf9-4808-be8e-17fe4fef56f1.png)
+
 
 ## <ins>Bot without downloading it
 You can add the original bot to your Discord Server: 
