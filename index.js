@@ -18,6 +18,11 @@ bot.on('message', msg => {
 
         var code = args3[1]
         var urlfivem = "https://servers-frontend.fivem.net/api/servers/single/"+code
+        
+        var headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.3",
+        }
+        
         https.get(urlfivem, function(res) {
 
             if(res.statusCode == 404){
@@ -31,7 +36,7 @@ bot.on('message', msg => {
 
             }else{
 
-                fetch(urlfivem)
+                fetch(urlfivem, { headers: headers })
                 .then(res => res.json())
                 .then((out) => {
 
@@ -111,7 +116,7 @@ bot.on('message', msg => {
                 .setFooter("Coded by 𝗮𝗹𝗲𝗷𝗮𝗻𝗱𝗿𝗼𝗺𝘂𝗺𝗲#𝟐𝟎𝟔𝟒")
                 msg.channel.send(mensaje);
             }else{
-                fetch(urlfivem)
+                fetch(urlfivem, { headers: headers })
                 .then(res => res.json())
                 .then((out) => {
                     const mensaje = new Discord.MessageEmbed()
@@ -152,7 +157,7 @@ bot.on('message', msg => {
 
         var code = args3[1]
         var urlfivem = "https://servers-frontend.fivem.net/api/servers/single/"+code
-        fetch(urlfivem)
+        fetch(urlfivem, { headers: headers })
                 .then(res => res.json())
                 .then((out) => {
                     
@@ -193,7 +198,7 @@ bot.on('message', msg => {
 
         var code = args3[1]
         var urlfivem = "https://servers-frontend.fivem.net/api/servers/single/"+code
-        fetch(urlfivem)
+        fetch(urlfivem, { headers: headers })
                 .then(res => res.json())
                 .then((out) => {
                     if(out["Data"]["vars"]["tags"] && out["Data"]["hostname"]){
@@ -234,7 +239,7 @@ bot.on('message', msg => {
 
         var code = args3[1]
         var urlfivem = "https://servers-frontend.fivem.net/api/servers/single/"+code
-        fetch(urlfivem)
+        fetch(urlfivem, { headers: headers })
                 .then(res => res.json())
                 .then((out) => {
                     if(out["Data"]["resources"] && out["Data"]["hostname"]){
@@ -273,7 +278,7 @@ bot.on('message', msg => {
         const args3 = msg.content.slice(">cowner".length).split(' ');
         var code = args3[1]
         var urlfivem = "https://servers-frontend.fivem.net/api/servers/single/"+code
-        fetch(urlfivem)
+        fetch(urlfivem, { headers: headers })
         .then(res => res.json())
         .then((out) => {
             if(out["Data"]["ownerName"]){
