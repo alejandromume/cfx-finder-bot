@@ -24,7 +24,10 @@ You can add the original bot to your Discord Server:
 ## <ins>Available Commands
   
   ![help](https://user-images.githubusercontent.com/43515908/112513912-b4038700-8d8c-11eb-8a3c-3f0c589b65b5.JPG)
-
+  
+  
+## <ins>Terms of Service
+  * This bot uses a public APIs that that presents the info in a nice way. The responsibility for the use of this tool lies with the user.
 
 
 
