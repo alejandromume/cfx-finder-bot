@@ -29,5 +29,7 @@ You can add the original bot to your Discord Server:
 ## <ins>Terms of Service
   * This bot uses a public APIs that that presents the info in a nice way. The responsibility for the use of this tool lies with the user.
 
+## <ins>Privacy Policy
+  * This bot does not collect any user information. It only makes use of the user input to make the API request.
 
 
